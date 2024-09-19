@@ -1,0 +1,18 @@
+[
+    {
+        "title": "The Matrix",
+        "releaseDate": "1999",
+        "genre": "Sci-Fi",
+        "cast": "Keanu Reeves, Laurence Fishburne",
+        "description": "A computer hacker learns about the true nature of reality.",
+        "imageUrl": "https://via.placeholder.com/200x300"
+    },
+    {
+        "title": "Inception",
+        "releaseDate": "2010",
+        "genre": "Sci-Fi",
+        "cast": "Leonardo DiCaprio, Joseph Gordon-Levitt",
+        "description": "A thief enters the dreams of others to steal secrets.",
+        "imageUrl": "https://via.placeholder.com/200x300"
+    }
+]

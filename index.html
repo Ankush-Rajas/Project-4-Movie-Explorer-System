@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Movie Explorer</h1>
+        <input type="text" id="searchBar" placeholder="Search for a movie..." onkeyup="searchMovies()">
+    </header>
+
+    <div id="categories">
+        <button onclick="filterByGenre('all')">All</button>
+        <button onclick="filterByGenre('Action')">Action</button>
+        <button onclick="filterByGenre('Comedy')">Comedy</button>
+        <button onclick="filterByGenre('Drama')">Drama</button>
+        <button onclick="filterByGenre('Sci-Fi')">Sci-Fi</button>
+    </div>
+
+    <div id="movie-list">
+        <!-- Movie Cards will be populated here -->
+    </div>
+
+    <!-- Movie Detail Modal -->
+    <div id="movieModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="movieTitle"></h2>
+            <p><strong>Release Date:</strong> <span id="movieReleaseDate"></span></p>
+            <p><strong>Genre:</strong> <span id="movieGenre"></span></p>
+            <p><strong>Cast:</strong> <span id="movieCast"></span></p>
+            <p><strong>Synopsis:</strong> <span id="movieDescription"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
